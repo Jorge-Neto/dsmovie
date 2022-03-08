@@ -1,9 +1,12 @@
-import React from 'react';
+import Pagination from "components/Pagination";
+import React from "react";
 
 const Listing = () => {
   return (
-    <div>Listing</div>
-  )
-}
+    <>
+      <Pagination />
+    </>
+  );
+};
 
 export default Listing;
