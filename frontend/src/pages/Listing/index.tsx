@@ -1,8 +1,9 @@
+import React from "react";
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
-import React from "react";
 
 const Listing = () => {
+
   return (
     <>
       <Pagination />
