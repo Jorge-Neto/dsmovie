@@ -13,11 +13,10 @@ const FormCard = ({ movieId }: Props) => {
   const [movie, setMovie] = useState<Movie>();
 
   useEffect(() => {
-    axios.get(`${BASE_URL}/movies/${movieId}`)
-    .then(res => {
-        console.log(res.data);
-        setMovie(res.data);
-    })
+    axios.get(`${BASE_URL}/movies/${movieId}`).then((res) => {
+      console.log(res.data);
+      setMovie(res.data);
+    });
   }, [movieId]);
 
   return (
