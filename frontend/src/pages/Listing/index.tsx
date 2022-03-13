@@ -29,9 +29,9 @@ const Listing = () => {
       });
   }, [pageNumber]);
 
-  const handlePageChange = (newPageNumber : number) => {
-    setPageNumber(newPageNumber)
-  }
+  const handlePageChange = (newPageNumber: number) => {
+    setPageNumber(newPageNumber);
+  };
 
   return (
     <>
